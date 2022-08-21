@@ -1,1 +1,29 @@
-a.nav-link > span{color:antiquewhite;}
+body{background-color: black;}
+a.nav-link > span{background-color: white;color:black;}
+/* .banner{background-image: url("./Imagenes/the-salt-road_08d2555b_1152x677.jpg");height: fit-content;} */
+.foto-div{position:absolute;z-index: 2; margin-top: 36%; margin-left: 8%;width:19%}
+.atacama-div{position:absolute;z-index: 1;top:0;left:0;right:0;bottom:0;margin:auto;}
+@media screen and (max-width:576px){
+    .foto-div{position:absolute; margin-top: 43%; margin-left: 5%;width:16%}
+}
+
+@media screen and (min-width:576px) and (max-width:1140px){
+    .foto-div{position:absolute; margin-top: 42%; margin-left: 5%;width:17%}
+}
+
+@media screen and (min-width:1140px) and (max-width:1240px){
+    .foto-div{position:absolute; margin-top: 40.5%; margin-left: 5%;width:17.5%}
+}
+
+@media screen and (min-width:1240px) and (max-width:1260px){
+    .foto-div{position:absolute; margin-top: 39%; margin-left: 5.5%;width:18%}
+}
+@media screen and (min-width:1260px) and (max-width:1270px){
+    .foto-div{position:absolute; margin-top: 37%; margin-left: 7%;width:19%}
+}
+/* @media screen and (min-width:576px) and (max-width:768px) {
+    .foto{width:20%;}
+    .foto-div{position:absolute; margin-top: 45%; margin-left: 10%;width:18%}
+    .contenedor-resto{background-color:blue;margin-top: 65%;}
+} */
+.contenedor-resto{background-color:blue;margin-top: 60%;}
