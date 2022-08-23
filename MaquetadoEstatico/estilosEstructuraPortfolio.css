@@ -1,7 +1,13 @@
-body{background-color: black;}
-header{height: 70vh;}
+body{background-color: #d87141;}
+header{height: 80vh;width:100vw}
 a.nav-link > span{background-color: white;color:black;}
 header > #banner {position:absolute;z-index: 1; width:100vw; top:0;bottom: 0;left:0;right:0;}
-#banner > #fotofondo-banner {width:100%;height:70%;}
-#banner > #fotopersonal-banner {position:absolute;z-index: 2; margin-top: -13%; margin-left: 10%;width:20vw}
-#primera-seccion{margin-top: 8%;}
+#banner > #fotofondo-banner {height:80%;width: 100%;}
+#banner > #fotopersonal-banner {position:absolute;z-index: 2; margin-top: -6%; margin-left: 12%;width:10vw}
+#acercade{margin-top: 5%;background-color: #d87141;}
+.titulocolumnaseccion{background-color:  #5f6a6a ;color:black;}
+p.titulocolumnaseccion{font-size: 1.4vw; margin:auto;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.contenido1columnaseccion{background-color:  #839192  ;color:black;}
+p.contenido1columnaseccion{font-size: 1vw; margin:auto;}
+.contenido2columnaseccion{background-color:  #839192  ;color:black;}
+p.contenido2columnaseccion{font-size: 0.8vw; margin:auto;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
