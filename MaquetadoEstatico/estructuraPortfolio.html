@@ -9,66 +9,69 @@
     <link rel="stylesheet" href="./estilosEstructuraPortfolio.css">
     <title>Portfolio</title>
 </head>
-<body>
-    <header>
-        <nav class="fixed-top navbar  navbar-expand-sm navbar-dark bg-black">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="">
-                    <img src="./Imagenes/Logo.jpg" alt="logo" class="d-inline-block align-text-center">
-                    <b>#YoProgramo</b> 
-                </a>
-                <div class="navbar-nav">
-                    <a class="nav-link fa fa-twitter" href="https://twitter.com/luchoyvuelvo2"></a>
-                    <a class="nav-link fa fa-facebook" href="https://www.facebook.com/Luichi923"></a>
-                    <a class="nav-link" href="#"><button type="button" class="btn btn-secondary">Login</button></a>
+    <body style="padding-top:104px;">
+        <header class="container-fluid">
+            <div class="row">
+                <nav class="fixed-top navbar navbar-expand-sm navbar-dark bg-black">
+                    <div class="container-fluid d-flex">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>                 
+                        <a class="navbar-brand" href="">
+                            <img src="./Imagenes/Logo.jpg" alt="logo">
+                            <b>#YoProgramo</b> 
+                        </a>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+                            <div class="navbar-nav">
+                                <a class="nav-link fa fa-twitter" href="https://twitter.com/luchoyvuelvo2"></a>
+                                <a class="nav-link fa fa-facebook" href="https://www.facebook.com/Luichi923"></a>
+                                <a class="nav-link" href="#"><button type="button" class="btn btn-secondary">Login</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col">
+                        <img src="./Imagenes/Banner.jpg" id="fotofondo-banner" class="banner img-fluid d-block" alt="FotoFondo">
+                        <img src="./Imagenes/FotoPortfolio.jpg" id="fotopersonal-banner" class="img-fluid rounded-circle" alt="FotoPersonal">
                 </div>
             </div>
-        </nav>
-        <div id="banner">
-            <img src="./Imagenes/Banner.jpg" id="fotofondo-banner" class="banner img-fluid mx-auto d-block" alt="FotoFondo">
-            <img src="./Imagenes/FotoPortfolio.jpg" id="fotopersonal-banner" class="img-fluid rounded-circle" alt="FotoPersonal">
-        </div>
-    </header>
-    <main id="principal">
-        <section id="acercade">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-2 offset-1 titulocolumnaseccion text-center rounded">
-                        <p class="titulocolumnaseccion" id="info-personal-encabezado">Información Personal</p>
-                    </div>
-                    <div class="col-1 offset-7">
-                        <div class="btn-group btn-group-sm" role="group">
-                            <button type="button" class="btn btn-secondary"><i class="fa fa-pencil" style="font-size:0.7vw;"></i></button>
-                            <button type="button" class="btn btn-secondary" style="margin-left:0.2vw;"><i class="fa fa-trash" style="font-size:0.7vw;"></i></button>
+        </header>
+        <main id="principal" class="container-fluid">
+    
+            <section id="acercade">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-2 offset-1 titulocolumnaseccion text-center rounded">
+                            <p class="titulocolumnaseccion" id="info-personal-encabezado">Información Personal</p>
+                        </div>
+                        <div class="col-1 offset-7">
+                            <div class="btn-group btn-group-sm" role="group">
+                                <button type="button" class="btn btn-secondary"><i class="fa fa-pencil" style="font-size:0.7vw;"></i></button>
+                                <button type="button" class="btn btn-secondary" style="margin-left:0.2vw;"><i class="fa fa-trash" style="font-size:0.7vw;"></i></button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row" style="margin-top: 1%;">
-                    <div class="col-2 offset-1 contenido1columnaseccion text-center rounded">
-                        <p class="contenido1columnaseccion"><b>Luis Salvador Augusto Terminiello</b><br><i>Full Stack Developer Jr.</i></p>
-                    </div>
-                    <div class="col-8 contenido2columnaseccion rounded" style="margin-left: 2vw">
-                        <p class="contenido2columnaseccion">Quince años de experiencia en testing funcional y automático trabajando en el área de Control de Calidad de la Dirección General de Sistemas dependiente de la Subsecretaría de Presupuesto de la Secretaría de Hacienda del Ministerio de Economía de la República Argentina. Estudiante de la carrera de Licenciatura en Economía de la Universidad de Buenos Aires.</p>
-                    </div>
-                </div>
-                <div class="row" style="margin-top: 2%;">
-                    <div class="col-2 offset-1 titulocolumnaseccion text-center rounded">
-                        <p class="titulocolumnaseccion" id="info-personal-encabezado">Experiencia Profesional</p>
-                    </div>
-                    <div class="col-1 offset-7">
-                        <div class="btn-group btn-group-sm" role="group">
-                            <button type="button" class="btn btn-secondary"><i class="fa fa-pencil" style="font-size:0.7vw;"></i></button>
-                            <button type="button" class="btn btn-secondary" style="margin-left:0.2vw;"><i class="fa fa-trash" style="font-size:0.7vw;"></i></button>
+                    <div class="row" style="margin-top: 1%;">
+                        <div class="col-2 offset-1 contenido1columnaseccion text-center rounded">
+                            <p class="contenido1columnaseccion"><b>Luis Salvador Augusto Terminiello</b><br><i>Full Stack Developer Jr.</i></p>
+                        </div>
+                        <div class="col-8 contenido2columnaseccion rounded" style="margin-left: 2vw">
+                            <p class="contenido2columnaseccion">Quince años de experiencia en testing funcional y automático trabajando en el área de Control de Calidad de la Dirección General de Sistemas dependiente de la Subsecretaría de Presupuesto de la Secretaría de Hacienda del Ministerio de Economía de la República Argentina. Estudiante de la carrera de Licenciatura en Economía de la Universidad de Buenos Aires.</p>
                         </div>
                     </div>
-                </div>
-                <!-- <div class="row" style="margin-top: 1%;">
-                    <div class="col-2 offset-1 contenido1columnaseccion text-center">
-                        <p class="contenido1columnaseccion"><b>Luis Salvador Augusto Terminiello</b><br><i>Full Stack Developer Jr.</i></p>
+                    <div class="row" style="margin-top: 2%;">
+                        <div class="col-2 offset-1 titulocolumnaseccion text-center rounded">
+                            <p class="titulocolumnaseccion" id="info-personal-encabezado">Experiencia Profesional</p>
+                        </div>
+                        <div class="col-1 offset-7">
+                            <div class="btn-group btn-group-sm" role="group">
+                                <button type="button" class="btn btn-secondary"><i class="fa fa-pencil" style="font-size:0.7vw;"></i></button>
+                                <button type="button" class="btn btn-secondary" style="margin-left:0.2vw;"><i class="fa fa-trash" style="font-size:0.7vw;"></i></button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-4 contenido2columnaseccion" style="margin-left: 2vw">
-                        <p class="contenido2columnaseccion">Quince años de experiencia en testing funcional y automático trabajando en el área de Control de Calidad de la Dirección General de Sistemas dependiente de la Subsecretaría de Presupuesto de la Secretaría de Hacienda del Ministerio de Economía de la República Argentina. Estudiante de la carrera de Licenciatura en Economía de la Universidad de Buenos Aires.</p>
-                    </div> -->
                 </div>
             </div>
         </section>
