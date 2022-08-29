@@ -13,7 +13,7 @@
         <header class="container-fluid">
             <div class="row">
                 <nav class="fixed-top navbar navbar-expand-sm navbar-dark bg-black">
-                    <div class="container-fluid d-flex">               
+                    <div class="container-fluid d-flex align-items-center">               
                         <a class="navbar-brand" href="">
                             <img src="./Imagenes/Logo.jpg" alt="logo">
                             <b>#YoProgramo</b> 
@@ -25,7 +25,7 @@
                             <div class="navbar-nav">
                                 <a class="nav-link fa fa-twitter" href="https://twitter.com/luchoyvuelvo2"></a>
                                 <a class="nav-link fa fa-facebook" href="https://www.facebook.com/Luichi923"></a>
-                                <a class="nav-link" href="#"><button type="button" class="btn btn-secondary">Login</button></a>
+                                <a class="nav-link" href="#"><button type="button" class="btn btn-secondary login-btn">Login</button></a>
                             </div>
                         </div>
                     </div>
@@ -40,20 +40,22 @@
         </header>
         <main id="principal" class="container" style="margin-top:0%;">
             <section id="acercade">
-                <div class="row justify-content-center justify-content-sm-between">
+                <div class="row justify-content-center justify-content-sm-between align-items-center">
                     <div class="col-7 col-sm-6 col-md-3 border border-3 border-black bg-secondary rounded">
-                        <h6 class="text-center fw-bold">Información Personal</h6>
+                        <h6 class="fw-bold">Información Personal</h6>
                     </div>
                     <div class="col-2">
-                        <div class="d-flex justify-content-start justify-content-sm-end">
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded"><i class="fa fa-pencil"></i></button>
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded" style="margin-left:2%;"><i class="fa fa-trash"></i></button>
+                        <div class="d-flex justify-content-end justify-content-sm-center align-items-center">
+                            <a href="#"><i class="fa fa-pencil"></i></a>
+                            <a href="#" class="link-papelera"><i class="fa fa-trash"></i></a>
+                            <!-- <button type="button" class="btn btn-secondary btn-sm border border-3 border-black bg-secondary rounded"><i class="fa fa-pencil"></i></button>
+                            <button type="button" class="btn btn-secondary btn-sm border border-3 border-black bg-secondary rounded" style="margin-left:2%;"><i class="fa fa-trash"></i></button> -->
                         </div>        
                     </div>
                 </div>
-                <div class="row pt-2 justify-content-center justify-content-sm-around">
+                <div class="row pt-2 justify-content-center justify-content-sm-around align-items-center">
                     <div class="col-11 col-sm-3 col-md-2 border border-3 border-black bg-secondary rounded">
-                        <p class="">Nombre, Apellido y Profesión</p>
+                        <p class="acercade" id="nomapeprof">Nombre, Apellido y Profesión</p>
                     </div>
                     <div class="col-11 col-sm-7 col-md-8 mt-1 mt-sm-0 border border-3 border-black bg-secondary rounded">
                         <p>Explicación de habilidades profesionales</p>
@@ -61,36 +63,36 @@
                 </div>
             </section>
             <section id="infoprofesional" class="mt-5">
-                <div class="row justify-content-center justify-content-sm-between">
+                <div class="row justify-content-center justify-content-sm-between align-items-center">
                     <div class="col-7 col-sm-6 col-md-3 border border-3 border-black bg-secondary rounded">
-                        <h6 class="text-center fw-bold">Información Profesional</h6>
+                        <h6 class="fw-bold">Experiencia Laboral</h6>
                     </div>
                     <div class="col-2">
-                        <div class="d-flex justify-content-start justify-content-sm-end">
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded"><i class="fa fa-pencil"></i></button>
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded" style="margin-left:2%;"><i class="fa fa-trash"></i></button>
+                        <div class="d-flex justify-content-end justify-content-sm-center align-items-center">
+                            <a href="#"><i class="fa fa-pencil"></i></a>
+                            <a href="#" class="link-papelera"><i class="fa fa-trash"></i></a>
                         </div>        
                     </div>
                 </div>
-                <div class="row pt-2 justify-content-center justify-content-sm-around">
+                <div class="row pt-2 justify-content-center justify-content-sm-around align-items-center">
                     <div class="col-4 col-sm-3 col-md-2 border border-3 border-black bg-secondary rounded">
-                        <p>Int años</p>
+                        <p class="infoprofesional" id="anios">Int años</p>
                     </div>
                     <div class="col-7 col-sm-7 col-md-8 border border-3 border-black bg-secondary rounded">
                         <p>Experiencia</p>
                     </div>
                 </div>
-                <div class="row pt-1 justify-content-center justify-content-sm-around">
+                <div class="row pt-1 justify-content-center justify-content-sm-around align-items-center">
                     <div class="col-4 col-sm-3 col-md-2 border border-3 border-black bg-secondary rounded">
-                        <p>Int años</p>
+                        <p class="infoprofesional" id="anios">Int años</p>
                     </div>
                     <div class="col-7 col-sm-7 col-md-8 border border-3 border-black bg-secondary rounded">
                         <p>Experiencia</p>
                     </div>
                 </div>
-                <div class="row pt-1 justify-content-center justify-content-sm-around">
+                <div class="row pt-1 justify-content-center justify-content-sm-around align-items-center">
                     <div class="col-4 col-sm-3 col-md-2 border border-3 border-black bg-secondary rounded">
-                        <p>Int años</p>
+                        <p class="infoprofesional" id="anios">Int años</p>
                     </div>
                     <div class="col-7 col-sm-7 col-md-8 border border-3 border-black bg-secondary rounded">
                         <p>Experiencia</p>
@@ -98,36 +100,36 @@
                 </div>
             </section>
             <section id="educacion" class="mt-5">
-                <div class="row justify-content-center justify-content-sm-between">
+                <div class="row justify-content-center justify-content-sm-between align-items-center">
                     <div class="col-7 col-sm-6 col-md-3 border border-3 border-black bg-secondary rounded">
-                        <h6 class="text-center fw-bold">Información Educativa</h6>
+                        <h6 class="fw-bold">Formación</h6>
                     </div>
                     <div class="col-2">
-                        <div class="d-flex justify-content-start justify-content-sm-end">
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded"><i class="fa fa-pencil"></i></button>
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded" style="margin-left:2%;"><i class="fa fa-trash"></i></button>
+                        <div class="d-flex justify-content-end justify-content-sm-center align-items-center">
+                            <a href="#"><i class="fa fa-pencil"></i></a>
+                            <a href="#" class="link-papelera"><i class="fa fa-trash"></i></a>
                         </div>        
                     </div>
                 </div>
-                <div class="row pt-2 justify-content-center justify-content-sm-around">
+                <div class="row pt-2 justify-content-center justify-content-sm-around align-items-center">
                     <div class="col-4 col-sm-3 col-md-2 border border-3 border-black bg-secondary rounded">
-                        <p>Año</p>
+                        <p class="educacion" id="anio">Año</p>
                     </div>
                     <div class="col-7 col-sm-7 col-md-8 border border-3 border-black bg-secondary rounded">
                         <p>Formación</p>
                     </div>
                 </div>
-                <div class="row pt-1 justify-content-center justify-content-sm-around">
+                <div class="row pt-1 justify-content-center justify-content-sm-around align-items-center">
                     <div class="col-4 col-sm-3 col-md-2 border border-3 border-black bg-secondary rounded">
-                        <p>Año</p>
+                        <p class="educacion" id="anio">Año</p>
                     </div>
                     <div class="col-7 col-sm-7 col-md-8 border border-3 border-black bg-secondary rounded">
                         <p>Formación</p>
                     </div>
                 </div>
-                <div class="row pt-1 justify-content-center justify-content-sm-around">
+                <div class="row pt-1 justify-content-center justify-content-sm-around align-items-center">
                     <div class="col-4 col-sm-3 col-md-2 border border-3 border-black bg-secondary rounded">
-                        <p>Año</p>
+                        <p class="educacion" id="anio">Año</p>
                     </div>
                     <div class="col-7 col-sm-7 col-md-8 border border-3 border-black bg-secondary rounded">
                         <p>Formación</p>
@@ -135,48 +137,48 @@
                 </div>
             </section>
             <section id="hardandsoftkills" class="mt-5">
-                <div class="row justify-content-center justify-content-sm-between">
+                <div class="row justify-content-center justify-content-sm-between align-items-center">
                     <div class="col-7 col-sm-6 col-md-3 border border-3 border-black bg-secondary rounded">
-                        <h6 class="text-center fw-bold">Hard and Soft Kills</h6>
+                        <h6 class="fw-bold">Hard and Soft Kills</h6>
                     </div>
                     <div class="col-2">
-                        <div class="d-flex justify-content-start justify-content-sm-end">
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded"><i class="fa fa-pencil"></i></button>
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded" style="margin-left:2%;"><i class="fa fa-trash"></i></button>
+                        <div class="d-flex justify-content-end justify-content-sm-center align-items-center">
+                            <a href="#"><i class="fa fa-pencil"></i></a>
+                            <a href="#" class="link-papelera"><i class="fa fa-trash"></i></a>
                         </div>        
                     </div>
                 </div>
             </section>
             <section id="proyectos" class="mt-5">
-                <div class="row justify-content-center justify-content-sm-between">
+                <div class="row justify-content-center justify-content-sm-between align-items-center">
                     <div class="col-7 col-sm-6 col-md-3 border border-3 border-black bg-secondary rounded">
-                        <h6 class="text-center fw-bold">Proyectos</h6>
+                        <h6 class="fw-bold">Proyectos</h6>
                     </div>
                     <div class="col-2">
-                        <div class="d-flex justify-content-start justify-content-sm-end">
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded"><i class="fa fa-pencil"></i></button>
-                            <button type="button" class="btn btn-secondary border border-3 border-black bg-secondary rounded" style="margin-left:2%;"><i class="fa fa-trash"></i></button>
+                        <div class="d-flex justify-content-end justify-content-sm-center align-items-center">
+                            <a href="#"><i class="fa fa-pencil"></i></a>
+                            <a href="#" class="link-papelera"><i class="fa fa-trash"></i></a>
                         </div>        
                     </div>
                 </div>
-                <div class="row pt-2 justify-content-center">
+                <div class="row pt-2 justify-content-center align-items-center">
                     <div class="col-11 border border-3 border-black bg-secondary rounded">
                         <p>Título y desarrollo del Proyecto</p>
                     </div>
                 </div>
-                <div class="row pt-1 ps-5 justify-content-start">
+                <div class="row pt-1 ps-5 justify-content-start align-items-center">
                     <div class="col-3">
-                        <a href=""><button type="button" class="btn btn-success">Link al proyecto</button></a>
+                        <a href=""><button type="button" class="btn btn-sm btn-success"><span>Link al proyecto</span></button></a>
                     </div>
                 </div>
-                <div class="row pt-1 justify-content-center">
+                <div class="row pt-1 justify-content-center align-items-center">
                     <div class="col-11 border border-3 border-black bg-secondary rounded">
                         <p>Título y desarrollo del Proyecto</p>
                     </div>
                 </div>
-                <div class="row pt-1 ps-5 justify-content-start">
+                <div class="row pt-1 ps-5 justify-content-start align-items-center">
                     <div class="col-3">
-                        <a href=""><button type="button" class="btn btn-success">Link al proyecto</button></a>
+                        <a href=""><button type="button" class="btn btn-sm btn-success"><span>Link al proyecto</span></button></a>
                     </div>
                 </div>
             </section>
